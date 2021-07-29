@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Signup Page</title>
+        <link href="Static/Main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script type="text/javascript">
+    
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('select');
+    M.FormSelect.init(elems);
+  });
+    </script>
+            
+    </head>
+
+    <body>
+         <header>
+
+            <div class="header-div">
+             <img src="Images/Mercer_Mettl Logo Lockups_Website-01.png" height="60px" width="160px">
+            </div>
+
+             <div class=" header-div contact-no right">
+               <p class=""><i class="material-icons">call</i>+91-9555-11-4444</p>
+             </div>
+            </header>
+
+       <section class="container ">
+           <div class="container-border">
+           <h2>Get Better Talent assessment now</h2>
+           <p>Already have an account?? Then <a href="#" class="login-link-hover">log in</a></p>
+           <form class="">
+               <p>
+               <label>Looking for a solution for*</label>
+               
+               <input name="group1" type="radio"  />
+        <span>My Organization</span>
+
+        <input name="group1" type="radio"  />
+        <span>Myself</span>
+
+    </p>
+
+               <input type="email" width="210px" placeholder="YOUR OFFICIAL EMAIL *"><br>
+
+               <input type="text" placeholder="YOUR NAME *"> <input type="tel" placeholder="YOUR PHONE NO *"><br>
+               
+               <div class="input-field col s12">
+                <select>
+                  <option value="" disabled selected>YOUR ROLE</option>
+                  <option value="1">HR</option>
+                  <option value="2">Manager</option>
+                  <option value="3">Developer</option>
+                  <option value="4">Student</option>
+                  <option value="5">Other</option>
+                </select>
+              </div>
+               
+              <input type="text" class="field-spacing" placeholder="YOUR COMPANY *"><br>
+               
+              <div class="center">
+              <input type="submit" class="btn green button-hover" value="TRY FOR FREE" name="submit">
+            </div>
+           </form>
+        </div>
+       </section>
+
+       <footer class="green footer-size">
+       <p class="">&copy; Aditya Bikram Arandhara</p>
+       </footer>
+
+
+
+    </body>
+</html>

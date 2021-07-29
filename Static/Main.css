@@ -1,0 +1,29 @@
+.field-spacing{
+    margin-top: 30px;
+}
+
+.header-div{
+    display: inline-block;
+}
+
+
+.container-border{
+    border: 10px solid black;
+    border-radius: 5px;
+}
+
+.footer-size{
+    padding-bottom: 150px;
+}
+
+.footer-text{
+    
+}
+
+.button-hover:hover{
+    color: darkgreen;
+}
+
+.login-link-hover:hover{
+    color: blue;
+}
